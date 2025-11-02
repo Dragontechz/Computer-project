@@ -1,0 +1,27 @@
+body{
+    background-image: url('../media/img/canvas.jpg');
+    color: whitesmoke;
+}
+
+label{
+    text-decoration: none;
+    color: rgb(210, 210,210,1);
+}
+#service-form h1{
+    margin-left: 2%;
+}
+input{
+    background-color: rgb(10, 10,10,0.1);
+    color: rgba(246, 246, 246, 0.921);
+    width: 60%;
+    height: rel;
+}
+
+#textarea{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    font: inherit;
+    overflow: hidden;
+    resize: none;
+}
