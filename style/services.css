@@ -18,10 +18,18 @@ input{
 }
 
 #textarea{
-    box-sizing: border-box;
+
+    margin: 30px;
+    border: 0;
     width: 300px;
     padding: 10px;
     font: inherit;
     overflow: hidden;
     resize: none;
+    background-color: gray;
+}
+
+button{
+    color: white;
+    background-color: grey;
 }
