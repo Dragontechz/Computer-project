@@ -9,30 +9,36 @@
 
 
 <body>
-<form id="service-form">
-    <h1>Get in Touch</h1>
-    <p> Let's discuss your project requirement</p>
-    <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-    </div>
+    <div id="heading"><h1>Get in Touch</h1>
+    <p> Let's discuss your project requirement</p></div>
 
-    <div class="form-group">
-        <label for="Email">Email:</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-    <div class="form-group">
-        <label for="Phone">Tel:</label>
-        <input type="tel" id="phone" name="phone" required>
-    </div>
 
-    <div class="form-group">
-        <label for="project_description">Project Description:</label>
-        <textarea name="project_description" id="textarea" required></textarea>
-    </div>
+    
+<form>
+    <div id="form_holder">
+    <div id="form_container">
+ 
+        <label for="name" id="name_id_label">Name:</label>
+        <input type="text" class="input"id="name" name="name" required>
 
-    <button type="submit">Get a Quote</button>
+  
+        <label for="Email" id="email_id_label">Email:</label>
+        <input type="email" class="input"id="email" name="email" required>
 
-</form>
+
+        <label for="Phone" id="phone_label_id">Tel:</label>
+        <input type="tel" id="phone" class="input"id="phone"name="phone" required>
+</div>
+    <div id="textarea_holder">
+      <label for="project_description"  id="text_area_label">Project Description</label>  
+        <textarea name="project_description" class="input" id="textarea"  required></textarea>
+</div>
+    <button type="submit" id="button">Get a Quote</button>
+
+   
+    
+</form> 
+</div>
+<footer><p id="copyr">2025 &copy; Softcode all rigth reserved</p></footer>
 </body>
 </html>
