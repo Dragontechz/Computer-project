@@ -42,3 +42,5 @@ here are some explaination on my project
     href: it defines the destination url of a link
 
 2-CSS:
+
+    background-image: Sets the background image(s) of an element.
