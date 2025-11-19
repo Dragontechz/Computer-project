@@ -7,11 +7,11 @@ h1{
     font-weight: 150;
     font-style: "pacifico","cursive";
     color: white;
-    display: flex;
+    display: flex;  /* activate flexbox layout*/
     align-items: center;
-    justify-content: center;
-    text-shadow: none;
-    text-decoration: none;
+    justify-content: center; /* center the element using flexbox*/
+    text-shadow: none; 
+    text-decoration: none; 
     margin: 0;
 
 }
@@ -40,12 +40,12 @@ p{
 
 }
 #img_grid{
-    display: grid;
-    grid-template-columns: repeat(3,1fr); 
-    grid-template-rows: repeat(3,1fr);
-    gap: 50px;
+    display: grid; /*activate the grid layout system in css*/
+    grid-template-columns: repeat(3,1fr); /*create 3 equal column to arang items horizontally*/
+    grid-template-rows: repeat(3,1fr); /*create 3 equal rows to arrange items vertically*/
+    gap: 50px; /*set gaps between elements */
 }
-/*
+
 img{
     height: 100%;
     width: 60%;

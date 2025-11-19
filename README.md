@@ -44,3 +44,25 @@ here are some explaination on my project
 2-CSS:
 
     background-image: Sets the background image(s) of an element.
+
+    min-width :Smallest width the element can have
+
+    border : Draws a line around the element
+
+    border-radius : Makes corners rounded
+
+    cursor : Changes the mouse pointer
+
+    transition : Makes changes to animate smoothly
+
+    grid-template-columns : Defines how many columns and their sizes in a grid
+
+    grid-template-rows : Defines how many rows and their sizes in a grid
+
+    grid-column : Says which column(s) a grid item occupies
+
+    grid-row : Says which row(s) a grid item occupies
+
+    text-decoration : Adds underline, overline, line-through, or none
+
+    text-decoration-color : Sets the color of the underline/overline
